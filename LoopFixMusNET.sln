@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopFixMusNET", "LoopFixMusNET.csproj", "{EDDD33CE-7FE4-4F70-AAB8-C52D0E7B974C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDDD33CE-7FE4-4F70-AAB8-C52D0E7B974C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDD33CE-7FE4-4F70-AAB8-C52D0E7B974C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDD33CE-7FE4-4F70-AAB8-C52D0E7B974C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDD33CE-7FE4-4F70-AAB8-C52D0E7B974C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {283DC53F-8DB0-4628-AB80-6C9F202BE2B0}
+	EndGlobalSection
+EndGlobal

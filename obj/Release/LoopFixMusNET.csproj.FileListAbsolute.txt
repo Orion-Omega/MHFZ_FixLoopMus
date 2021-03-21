@@ -1,0 +1,11 @@
+C:\Users\Orion\source\repos\LoopFixMusNET\bin\Release\LoopFixMusNET.exe.config
+C:\Users\Orion\source\repos\LoopFixMusNET\bin\Release\LoopFixMusNET.exe.manifest
+C:\Users\Orion\source\repos\LoopFixMusNET\bin\Release\LoopFixMusNET.application
+C:\Users\Orion\source\repos\LoopFixMusNET\bin\Release\LoopFixMusNET.exe
+C:\Users\Orion\source\repos\LoopFixMusNET\bin\Release\LoopFixMusNET.pdb
+C:\Users\Orion\source\repos\LoopFixMusNET\obj\Release\LoopFixMusNET.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\LoopFixMusNET\obj\Release\LoopFixMusNET.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\LoopFixMusNET\obj\Release\LoopFixMusNET.exe.manifest
+C:\Users\Orion\source\repos\LoopFixMusNET\obj\Release\LoopFixMusNET.application
+C:\Users\Orion\source\repos\LoopFixMusNET\obj\Release\LoopFixMusNET.exe
+C:\Users\Orion\source\repos\LoopFixMusNET\obj\Release\LoopFixMusNET.pdb
