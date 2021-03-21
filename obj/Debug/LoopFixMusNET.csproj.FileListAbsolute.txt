@@ -1,7 +1,0 @@
-C:\Users\Orion\source\repos\LoopFixMusNET\bin\Debug\LoopFixMusNET.exe.config
-C:\Users\Orion\source\repos\LoopFixMusNET\bin\Debug\LoopFixMusNET.exe
-C:\Users\Orion\source\repos\LoopFixMusNET\bin\Debug\LoopFixMusNET.pdb
-C:\Users\Orion\source\repos\LoopFixMusNET\obj\Debug\LoopFixMusNET.csprojAssemblyReference.cache
-C:\Users\Orion\source\repos\LoopFixMusNET\obj\Debug\LoopFixMusNET.csproj.CoreCompileInputs.cache
-C:\Users\Orion\source\repos\LoopFixMusNET\obj\Debug\LoopFixMusNET.exe
-C:\Users\Orion\source\repos\LoopFixMusNET\obj\Debug\LoopFixMusNET.pdb
