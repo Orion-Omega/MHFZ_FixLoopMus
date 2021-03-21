@@ -30,8 +30,6 @@ namespace Reverse
             }
             else { Console.WriteLine("Put the mhfo-hd.dll in same folder to this program !"); Console.ReadLine(); }
         }
-
-
         static void Start()
         {
             string ByteHex(int value) => (value & 0xFF).ToString("X2");
@@ -59,15 +57,7 @@ namespace Reverse
             string unk1_modded_str = Console.ReadLine();
             Int32 unk1_modded = Int32.Parse(unk1_modded_str);
             string unk1Hex_modded = ByteHex(unk1_modded) + ByteHex(unk1_modded >> 8) + ByteHex(unk1_modded >> 16) + ByteHex(unk1_modded >> 24);
-
-            //Console.WriteLine($"unk0 [Original] : (int32) {unk0_original_str} | (Hexadecimal) {unk0Hex_original}");
-            //Console.WriteLine($"unk1 [Original] : (int32) {unk1_original_str} | (Hexadecimal) {unk1Hex_original}");
-
-            //Console.WriteLine($"unk0 [Modded] : (int32) {unk0_modded_str} | (Hexadecimal) {unk0Hex_modded}");
-            //Console.WriteLine($"unk1 [Modded] : (int32) {unk1_modded_str} | (Hexadecimal) {unk1Hex_modded}");
-
             Console.WriteLine("Processing ...");
-
             try
             {
                 byte[] buffer = File.ReadAllBytes("mhfo-hd.dll");
@@ -91,9 +81,7 @@ namespace Reverse
                 Console.WriteLine("Error" + e);
                 Console.ReadLine();
             }
-
         }
-
         public static byte[] StringToByteArray(string hex)
         {
             return Enumerable.Range(0, hex.Length)
@@ -101,7 +89,6 @@ namespace Reverse
                              .Select(x => Convert.ToByte(hex.Substring(x, 2), 16))
                              .ToArray();
         }
-
         public static void OpenBrowser(string url)
         {
             try
@@ -110,7 +97,6 @@ namespace Reverse
             }
             catch
             {
-                // hack because of this: https://github.com/dotnet/corefx/issues/10361
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 {
                     url = url.Replace("&", "^&");
